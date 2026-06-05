@@ -214,25 +214,18 @@ python clook.py
 
 ---
 
-# 📄 License
+## 👨‍💻 Author
 
-This project is licensed under the MIT License.
+<div align='center'>
+    
+### Md Tausif Uddin
 
-See the LICENSE file for details.
-
----
-
-# 👨‍💻 Author
-
-**Md. Tausif Uddin**
-B.Sc. in Computer Science and Engineering (CSE)
+Department of Computer Science & Engineering (CSE)  
 University of Asia Pacific (UAP)
 
 GitHub: https://github.com/tausif112
 
 ---
-
-<div align="center">
 
 ⭐ If you found this project useful, consider giving it a star!
 
