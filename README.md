@@ -16,7 +16,7 @@ A Python implementation of the **C-LOOK Disk Scheduling Algorithm** with seek pa
 
 ---
 
-## 📌 Project Overview
+## 📌 Overview
 
 This project demonstrates the implementation of the **C-LOOK Disk Scheduling Algorithm**, an optimized version of the C-SCAN Disk Scheduling Algorithm used in Operating Systems.
 
