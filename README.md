@@ -16,7 +16,7 @@ A Python implementation of the **C-LOOK Disk Scheduling Algorithm** with seek pa
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project demonstrates the implementation of the **C-LOOK Disk Scheduling Algorithm**, an optimized version of the C-SCAN Disk Scheduling Algorithm used in Operating Systems.
 
@@ -36,7 +36,7 @@ The project was developed and tested using **Google Colaboratory (Google Colab)*
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 * C-LOOK Disk Scheduling Simulation
 * Right-First Disk Head Movement
@@ -49,7 +49,7 @@ The project was developed and tested using **Google Colaboratory (Google Colab)*
 
 ---
 
-# 🧠 About C-LOOK Disk Scheduling
+## 🧠 About C-LOOK Disk Scheduling
 
 C-LOOK stands for **Circular LOOK**.
 
@@ -70,11 +70,10 @@ It is a circular version of the LOOK Disk Scheduling Algorithm. The disk head mo
 
 ---
 
-# ⚙️ Algorithm
+## ⚙️ Algorithm
 
 1. Start from the initial disk head position.
 2. Separate requests into:
-
    * Right-side requests
    * Left-side requests
 3. Sort right-side requests in ascending order.
@@ -86,7 +85,7 @@ It is a circular version of the LOOK Disk Scheduling Algorithm. The disk head mo
 
 ---
 
-# 🧮 Input Example
+## 🧮 Input Example
 
 ```python
 queue = [98, 183, 37, 122, 14, 124, 65, 67]
@@ -95,7 +94,7 @@ start_position = 53
 
 ---
 
-# 📊 Output Example
+## 📊 Output Example
 
 ```text
 Path: [53, 65, 67, 98, 122, 124, 183, 14, 37]
@@ -105,7 +104,7 @@ Total cylinder movement: 208
 
 ---
 
-# 📈 Seek Path Representation
+## 📈 Seek Path Representation
 
 ```text
 53 → 65 → 67 → 98 → 122 → 124 → 183 → 14 → 37
@@ -113,7 +112,7 @@ Total cylinder movement: 208
 
 ---
 
-# 📋 Movement Analysis
+## 📋 Movement Analysis
 
 | From | To  | Distance |
 | ---- | --- | -------- |
@@ -139,19 +138,23 @@ Total cylinder movement: 208
 
 ---
 
-# 📸 Google Colab Workspace
+## 📸 Google Colab Development Environment
+
+The project was implemented and tested using Google Colaboratory.
+
+### Google Colab Workspace
 
 ![Colab Workspace](screenshots/colab-workspace.png)
 
 ---
 
-# 📸 Program Output
+## 📸 Program Output
 
 ![Output](screenshots/output.png)
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 C-LOOK-Disk-Scheduling-Simulator/
@@ -169,21 +172,21 @@ C-LOOK-Disk-Scheduling-Simulator/
 
 ---
 
-# 🚀 How to Run
+## 🚀 How to Run
 
-## Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/tausif112/C-LOOK-Disk-Scheduling-Simulator.git
 ```
 
-## Navigate to the Project Directory
+### Navigate to the Project Directory
 
 ```bash
 cd C-LOOK-Disk-Scheduling-Simulator
 ```
 
-## Run the Program
+### Run the Program
 
 ```bash
 python clook.py
@@ -191,7 +194,7 @@ python clook.py
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 | Technology        | Purpose                  |
 | ----------------- | ------------------------ |
@@ -202,7 +205,7 @@ python clook.py
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 * LOOK Disk Scheduling Comparison
 * C-SCAN Disk Scheduling Comparison
